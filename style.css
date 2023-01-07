@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: content-box;
 }
+
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
