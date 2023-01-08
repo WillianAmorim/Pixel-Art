@@ -53,3 +53,7 @@ const selectedPixel = (event) => {
 for (let i = 0; i < pixels.length; i++) {
   pixels[i].addEventListener('click', selectedPixel)
 }
+
+// BUTÃO DE LIMPAR
+
+const buttonClean = document.querySelector('#clear-board')
