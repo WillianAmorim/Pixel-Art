@@ -2,6 +2,10 @@ document.getElementById('black').classList.add('selected');
 
 const idSectionPixel = document.getElementById('pixel-board');
 
+const inputNumber = document.querySelector('#board-size')
+
+const buttonVqv = document.querySelector('#generate-board')
+
 const createPixels = (number) => {
 
   for (let i = 0; i < number; i++) {
