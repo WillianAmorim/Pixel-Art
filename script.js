@@ -37,5 +37,19 @@ const selectedColor = (event) => {
 }
 
 for (let i = 0; i < palettes.length; i++) {
+  if (palettes[i].classList.contains('selected')) {
+    corSelecionada = palettes[i].id;
+  }
   palettes[i].addEventListener('click', selectedColor)
+}
+
+// COLORIR PIXELS
+const pixels = document.querySelectorAll('.pixel')
+
+const selectedPixel = (event) => {
+  event.target.style.backgroundColor = corSelecionada;
+}
+
+for (let i = 0; i < pixels.length; i++) {
+  pixels[i].addEventListener('click', selectedPixel)
 }
