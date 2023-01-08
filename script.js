@@ -2,26 +2,23 @@ document.getElementById('black').classList.add('selected');
 
 const idSectionPixel = document.getElementById('pixel-board');
 
-const inputNumber = document.querySelector('#board-size')
+const createPixels = (number1, number2) => {
 
-const buttonVqv = document.querySelector('#generate-board')
-
-const createPixels = (number) => {
-
-  for (let i = 0; i < number; i++) {
-    const tagDiv = document.createElement('div');
-
+  for (let i = 0; i < number1; i++) {
+    const tagDiv = document.createElement('tr');
     idSectionPixel.appendChild(tagDiv);
 
-    for (let c = 0; c < number; c++) {
-      const tagDivChild = document.createElement('div');
+    for (let c = 0; c < number2; c++) {
+      const tagDivChild = document.createElement('td');
       tagDivChild.classList.add('pixel')
       tagDiv.appendChild(tagDivChild)
     }
   }
 };
 
-createPixels(5)
+createPixels(10, 20)
+
+// CRIANDO QUADRO DE PIXELS CONFORME USUARIO PEDIR
 
 //CLICK NAS PALETAS
 const palettes = document.querySelectorAll('.color');
