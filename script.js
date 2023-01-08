@@ -57,3 +57,11 @@ for (let i = 0; i < pixels.length; i++) {
 // BUTÃO DE LIMPAR
 
 const buttonClean = document.querySelector('#clear-board')
+
+const clearPixels = () => {
+  for (let i = 0; i < pixels.length; i++) {
+    pixels[i].style.backgroundColor = 'white'
+  }
+}
+
+buttonClean.addEventListener('click', clearPixels)
