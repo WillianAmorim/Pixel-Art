@@ -4,6 +4,10 @@
   box-sizing: content-box;
 }
 
+body {
+  background-color: #b2c5d8;
+}
+
 #black {
   background-color: black;
 }
