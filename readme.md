@@ -11,10 +11,6 @@ Este projeto é simplesmente divertido e funcional, a ideia é criar ou replicar
 Front-end:
 > Desenvolvido usando: HTML5, CSS3, JavaScript
 
-## Instalando Dependências
+## Visualização de aplicação online
 
-> Para essa aplicação não precisaremos fazer nenhuma instalação
-
-## Executando aplicação
-
-> Após você fazer o clone da aplicação, a indicação é você ter a extensão "Go Live" no VsCode e utilizá-la.
+> https://willianamorim.github.io/Pixel-Art/
